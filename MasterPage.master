@@ -1,0 +1,248 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Star Skill Technics</title>
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/materialdesignicons.min.css" />
+<link rel="stylesheet" href="assets/css/material.min.css" />
+<link rel="stylesheet" href="assets/css/ripples.min.css" />
+<link rel="stylesheet" href="assets/css/owl.carousel.css" />
+<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+<link rel="stylesheet" href="assets/css/settings.css" />
+<link rel="stylesheet" href="assets/css/slicknav.css" />
+<link rel="stylesheet" href="assets/css/animate.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<link rel="stylesheet" href="assets/css/color-switcher.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/colors/blue.css" media="screen" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+            .page-footer .link-widget ul li {
+                list-style: none;
+                /* float: left; */
+                padding-bottom: 0px !important;
+                width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg scrolling-navbar nav-bg">
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="mdi mdi-menu"></span>
+                            <span class="mdi mdi-menu"></span>
+                            <span class="mdi mdi-menu"></span>
+                        </button>
+                        <a class="navbar-brand" href="home.aspx">
+                            <img src="assets/images/viewlogo.png" style="width:50px" />
+                            <%--<img src="assets/images/logo.png" alt="">--%></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="main-navbar">
+                        <ul id="activeMenu" class="navbar-nav mr-auto w-100 justify-content-end">
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link" href="home.aspx">Home</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="aboutus.aspx">About Us</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="objectives.aspx">Objectives</a></li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link" href="Overview.aspx">Company Overview</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="Future.aspx">Looking to the Future</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="contact.aspx">Contact Us</a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <ul class="wpb-mobile-menu">
+                    <li>
+                        <a class="active" href="Home.aspx">Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="aboutus.aspx">About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="objectives.aspx">Objectives
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="Overview.aspx">Company Overview
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="Future.aspx">Looking to the Future
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="contact.aspx">Contact Us
+                        </a>
+                    </li>
+
+
+
+
+                </ul>
+
+            </nav>
+        </header>
+
+
+       
+
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+        <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
+
+            <div class="container pt-5 mb-5">
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
+                        <h3 class="footer-title">Address</h3>
+                       <%-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates eos minus expedita ipsum soluta voluptatem sed architecto.</p>--%>
+                        <p>No. 5,6 First floor, Coromandel town,<br /> Menambedu Road,<br />Ambattur Industrial Estate,<br />Chennai - 58<br /><i class="material-icons mdi mdi-phone mr-3"></i>+91 9710599988<br /><i class="material-icons mdi mdi-email mr-3"></i> starskilltech@gmail.com </p>
+                        <ul>
+                            <li>
+                                <a href="https://en-gb.facebook.com/login/"><i class="mdi mdi-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/login?lang=en"><i class="mdi mdi-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/uas/login"><i class="mdi mdi-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
+                        <h3 class="footer-title">OUR TRAINING</h3>
+                        <p><a href="#" class="dark-grey-text">Problem Solving and Decision Making</a></p>
+                        <p><a href="#" class="dark-grey-text">Planning</a></p>
+                        <p><a href="#" class="dark-grey-text">Delegation</a></p>
+                        <p><a href="#" class="dark-grey-text">Internal Communications</a></p>
+                        <p><a href="#" class="dark-grey-text">Meeting Management</a></p>
+                        <p><a href="#" class="dark-grey-text">Managing Yourself</a></p>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3 col-xl-3 link-widget">
+                        <h3 class="footer-title">Quick link</h3>
+                        <ul>
+                            <li><a href="Home.aspx">About Us</a></li>
+                            <li><a href="objectives.aspx">objectives</a></li>
+                            <li><a href="Overview.aspx">Company Overview</a></li>
+                            <li><a href="Future.aspx">Looking to the Future</a></li>
+                            <li><a href="contact.aspx">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- <div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
+<h3 class="footer-title">Our Gallery</h3>
+<div class="widget widget-gallery">
+<ul class="magnific-gallery">
+<li><a href="#"><img src="assets/images/gallery/thum1.jpg" alt="instagram image"></a></li>
+<li><a href="#"><img src="assets/images/gallery/thum2.jpg" alt="instagram image"></a></li>
+<li><a href="#"><img src="assets/images/gallery/thum3.jpg" alt="instagram image"></a></li>
+<li><a href="#"><img src="assets/images/gallery/thum4.jpg" alt="instagram image"></a></li>
+<li><a href="#"><img src="assets/images/gallery/thum5.jpg" alt="instagram image"></a></li>
+<li><a href="#"><img src="assets/images/gallery/thum6.jpg" alt="instagram image"></a></li>
+</ul>
+</div>
+</div> -->
+
+                </div>
+            </div>
+
+
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>© 2018 Star Skill Technics, All right reserved. Designed by <a href="#">shuttersketz</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <a href="#" class="back-to-top">
+            <div class="ripple-container"></div>
+            <i class="mdi mdi-arrow-up"></i>
+        </a>
+
+        <div id="preloader">
+            <div class="loader" id="loader-1"></div>
+        </div>
+
+
+
+        <script src="assets/js/jquery-min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <script src="assets/js/jquery.inview.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/scroll-top.js"></script>
+        <script src="assets/js/material.min.js"></script>
+        <script src="assets/js/ripples.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/form-validator.min.js"></script>
+        <script src="assets/js/contact-form-script.min.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/jquery.vide.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.slicknav.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var curPage = (document.location.href.match(/[^\/]+$/)[0]);
+                $("#activeMenu li").removeClass();
+                $("#activeMenu li").each(function () {
+                    //alert("test    " + $(this).find("a").attr("href") + "    " + document.location.href.match(/[^\/]+$/)[0]);
+                    if ($(this).find("a").attr("href").toLowerCase().trim() === curPage.toLowerCase().trim()) {
+                        $(this).addClass("nav-item dropdown active");
+                    }
+                    else {
+                        $(this).removeClass("nav-item dropdown");
+                    }
+                });
+            });
+        </script>
+    </form>
+</body>
+</html>
